@@ -8,7 +8,7 @@ title = "Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 40
 
 # Content.
 # Display content from the following folder.
@@ -29,17 +29,29 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
-#
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+  name = "All"
+  tag = "*"
+
+[[filter]]
+  name = "Exploratory Data Analysis"
+  tag = "Exploratory Data Analysis"
+
+[[filter]]
+  name = "Data Visualisation"
+  tag = "Data Visualisation"
+
+[[filter]]
+  name = "Machine Learning"
+  tag = "Machine Learning"
+
+[[filter]]
+  name = "NLP"
+  tag = "NLP"
+
+[[filter]]
+  name = "Other"
+  tag = "Demo"
 
 +++
 
